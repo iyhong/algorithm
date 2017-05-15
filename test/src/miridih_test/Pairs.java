@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Pairs {
 	public static void main(String[] args) throws FileNotFoundException{
-		Scanner sc = new Scanner(new FileInputStream("src/miridih_test/01-정수쌍-input00.txt"));
+		Scanner sc = new Scanner(new FileInputStream("src/miridih_test/01-정수쌍-input00.txt"));
 
 		//Scanner sc = new Scanner(System.in);
 		
