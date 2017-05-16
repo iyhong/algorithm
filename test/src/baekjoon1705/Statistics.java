@@ -90,11 +90,22 @@ public class Statistics {
 		tree.addAll(list);
 		list = new ArrayList<Integer>();
 		//Iterator<Integer> it = tree.iterator();
+		
+		//System.out.println(tree);
+		
 		list.addAll(tree);
+		
+//		System.out.println(list);
+//		System.out.println("list size:"+list.size());
 //		for(int i=0; i<list.size(); i++){
 //			System.out.print(list.get(i)+", ");
 //		}
-		frequency = list.get(1);
+//		System.out.println();
+		
+		if(list.size() > 1)
+			frequency = list.get(1);
+		else
+			frequency = list.get(0);
 		System.out.println(frequency);
 
 		// 범위 구하기
