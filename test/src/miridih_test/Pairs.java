@@ -1,6 +1,5 @@
 package miridih_test;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 //문제 제목 : 정수쌍(Pairs) 
@@ -13,9 +12,9 @@ import java.util.Scanner;
 
 public class Pairs {
 	public static void main(String[] args) throws FileNotFoundException{
-		Scanner sc = new Scanner(new FileInputStream("src/miridih_test/01-정수쌍-input00.txt"));
+		//Scanner sc = new Scanner(new FileInputStream("src/miridih_test/01-정수쌍-input00.txt"));
 
-		//Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		int N = sc.nextInt();//입력받을 정수의 갯수
 		int K = sc.nextInt();//차이 값

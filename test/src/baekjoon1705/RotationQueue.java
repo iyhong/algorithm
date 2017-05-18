@@ -9,14 +9,18 @@ public class RotationQueue {
 		int n = sc.nextInt();
 		int m = sc.nextInt();
 		int[] num = new int[m];
+		//ArrayList를 큐로 사용
 		ArrayList<Integer> q = new ArrayList<Integer>();
 		int count = 0;
 		int now = 0;
 		
+		//찾을 숫자 저장
 		for(int i=0; i<m; i++){
 			num[i] = sc.nextInt();
 		}
 		
+		//배열에 인덱스값을 저장
+		//처음위치를 가지고 찾아서 빼내야 하기때문에
 		for(int i=0; i<n; i++){
 			q.add(i+1);
 		}
@@ -31,6 +35,7 @@ public class RotationQueue {
 			int size = q.size();
 //			System.out.println("q size:"+size);
 //			System.out.println(q);
+			
 			//오른쪽으로 이동
 			while(q.get(rnow) != tmp){
 				//System.out.println("rnow:"+rnow);
@@ -70,6 +75,6 @@ public class RotationQueue {
 //			System.out.println("----------------");
 		}
 		System.out.println(count);
-		
+		sc.close();
 	}
 }

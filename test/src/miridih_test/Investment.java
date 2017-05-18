@@ -13,8 +13,8 @@ import java.util.Scanner;
 
 public class Investment {
 	public static void main(String[] args) throws FileNotFoundException{
-		Scanner sc = new Scanner(new FileInputStream("src/miridih_test/04-주식투자-input02.txt"));
-		//Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(new FileInputStream("src/miridih_test/04-주식투자-input02.txt"));
+		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();
 		

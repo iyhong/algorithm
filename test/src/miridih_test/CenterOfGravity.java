@@ -13,8 +13,8 @@ import java.util.Scanner;
 
 public class CenterOfGravity {
 	public static void main(String[] args) throws FileNotFoundException{
-		Scanner sc = new Scanner(new FileInputStream("src/miridih_test/02-배열의무게중심-input00.txt"));
-		//Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(new FileInputStream("src/miridih_test/02-배열의무게중심-input00.txt"));
+		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();
 		
@@ -32,6 +32,7 @@ public class CenterOfGravity {
 				int left = 0;
 				int right = 0;
 //				System.out.println("i:"+i);
+				
 //				왼쪽 합 구하기
 //				0번째 배열부터 i-1번째 배열까지 더한다.
 				for(int j=0;j<i;j++){

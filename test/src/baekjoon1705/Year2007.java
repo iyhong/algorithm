@@ -13,11 +13,13 @@ public class Year2007 {
 		
 		String result = "";
 		int day = 0;
+		//1월 1일을 기준으로 몇일이 지났는지 계산 
 		for(int i=0; i<moon-1; i++){
 			day += month[i];
 		}
 		day += date;
 		
+		//날짜를 7로 나누어 나머지값에 따라 문자열 선택
 		switch(day%7){
 		case 0:
 			result = "SUN";
@@ -43,6 +45,6 @@ public class Year2007 {
 		}
 		
 		System.out.println(result);
-		
+		sc.close();
 	}
 }

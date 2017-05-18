@@ -17,8 +17,8 @@ import java.util.Scanner;
 
 public class BiggerString {
 	public static void main(String[] args) throws FileNotFoundException{
-		Scanner sc = new Scanner(new FileInputStream("src/miridih_test/05-더큰문자열-input01.txt"));
-		//Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(new FileInputStream("src/miridih_test/05-더큰문자열-input01.txt"));
+		Scanner sc = new Scanner(System.in);
 		
 		int t = sc.nextInt();
 		String[] strArray = new String[t];
