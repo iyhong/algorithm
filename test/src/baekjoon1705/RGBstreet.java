@@ -9,7 +9,7 @@ public class RGBstreet {
 		int n = sc.nextInt();
 
 		int[][] X = new int[n][3];
-		int min = 9999;
+		int min = 9999999;
 
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < 3; j++) {
