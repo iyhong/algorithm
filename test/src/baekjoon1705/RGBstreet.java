@@ -1,5 +1,5 @@
 package baekjoon1705;
-
+//백준 1149번 RGB거리
 import java.util.Scanner;
 
 public class RGBstreet {

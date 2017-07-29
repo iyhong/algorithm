@@ -6,7 +6,7 @@ import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class A {
+public class Aaaaa {
 	public static void main(String[] args){
 		PrintStream p = System.out;
 		p.println("테스트 ");
